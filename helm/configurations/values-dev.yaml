@@ -15,7 +15,7 @@ components:
       environment:
         REANA_RUNTIME_KUBERNETES_KEEP_ALIVE_JOBS_WITH_STATUSES: failed
         REANA_OPENSEARCH_USE_SSL: false
-        REANA_OPENSEARCH_ENABLED: false  # Set to true to enable live logs
+        REANA_OPENSEARCH_ENABLED: true
     reana_workflow_engine_cwl:
       image: docker.io/reanahub/reana-workflow-engine-cwl
     reana_workflow_engine_yadage:
